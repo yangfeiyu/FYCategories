@@ -16,7 +16,6 @@
 		A145753E1EA760AC0082E403 /* FYCategoriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A145753D1EA760AC0082E403 /* FYCategoriesTests.m */; };
 		A14575491EA760AC0082E403 /* FYCategoriesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A14575481EA760AC0082E403 /* FYCategoriesUITests.m */; };
 		A145755B1EA761140082E403 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = A145755A1EA761140082E403 /* UIColor+Hex.m */; };
-		A1ECC5111F0A4925001B4BCA /* MBProgressHUD+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ECC4E31F0A4925001B4BCA /* MBProgressHUD+Utils.m */; };
 		A1ECC5121F0A4925001B4BCA /* UIBarButtonItem+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ECC4E61F0A4925001B4BCA /* UIBarButtonItem+Extra.m */; };
 		A1ECC5131F0A4925001B4BCA /* UIButton+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ECC4E91F0A4925001B4BCA /* UIButton+Extra.m */; };
 		A1ECC5141F0A4925001B4BCA /* UIButton+LCAlignment.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ECC4EB1F0A4925001B4BCA /* UIButton+LCAlignment.m */; };
@@ -75,8 +74,6 @@
 		A145754A1EA760AC0082E403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A14575591EA761140082E403 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		A145755A1EA761140082E403 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
-		A1ECC4E21F0A4925001B4BCA /* MBProgressHUD+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Utils.h"; sourceTree = "<group>"; };
-		A1ECC4E31F0A4925001B4BCA /* MBProgressHUD+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Utils.m"; sourceTree = "<group>"; };
 		A1ECC4E51F0A4925001B4BCA /* UIBarButtonItem+Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extra.h"; sourceTree = "<group>"; };
 		A1ECC4E61F0A4925001B4BCA /* UIBarButtonItem+Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extra.m"; sourceTree = "<group>"; };
 		A1ECC4E81F0A4925001B4BCA /* UIButton+Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extra.h"; sourceTree = "<group>"; };
@@ -253,8 +250,6 @@
 		A1ECC4E11F0A4925001B4BCA /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				A1ECC4E21F0A4925001B4BCA /* MBProgressHUD+Utils.h */,
-				A1ECC4E31F0A4925001B4BCA /* MBProgressHUD+Utils.m */,
 			);
 			path = MBProgressHUD;
 			sourceTree = "<group>";
@@ -507,7 +502,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1ECC5131F0A4925001B4BCA /* UIButton+Extra.m in Sources */,
-				A1ECC5111F0A4925001B4BCA /* MBProgressHUD+Utils.m in Sources */,
 				A1ECC51F1F0A4925001B4BCA /* UIView+NibLoading.m in Sources */,
 				A145752B1EA760AC0082E403 /* ViewController.m in Sources */,
 				A1ECC51B1F0A4925001B4BCA /* UILabel+Extension.m in Sources */,
